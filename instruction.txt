@@ -1,9 +1,18 @@
 📌 Steps to Run the Project
-Create a database in MySQL 
+1.Create a database in MySQL 
 
-Update your database connection in config.php:
+2. Update your database connection in config.php:
 Example:
   "DB_HOST" => "localhost",
   "DB_NAME" => "test_db",
   "DB_USER" => "root",
   "DB_PASS" => ""
+
+3. Import the db.sql file in database
+
+📌 How the Project Works
+1️⃣ Homepage: When you first visit the project, you’ll see the home page with a list of records.
+2️⃣ Add Submission: Click the "Add Submission" button and show the form page.
+3️⃣ Fill & Submit: Enter the required data and click Submit to save the form.
+4️⃣ View Submissions: After submission, click "List" to see all submitted records.
+5️⃣ Filter Data: You can filter submissions based on Date Range and User entry_by.
