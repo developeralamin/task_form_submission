@@ -1,0 +1,9 @@
+📌 Steps to Run the Project
+Create a database in MySQL 
+
+Update your database connection in config.php:
+Example:
+  "DB_HOST" => "localhost",
+  "DB_NAME" => "test_db",
+  "DB_USER" => "root",
+  "DB_PASS" => ""
