@@ -1,6 +1,7 @@
 <?php 
 require_once __DIR__ . "../app/controllers/FormController.php";
 
+
 $controller = new FormController();
 $records = $controller->getAllRecords();
 ?>

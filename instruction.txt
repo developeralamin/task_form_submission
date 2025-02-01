@@ -16,3 +16,7 @@ Example:
 3️⃣ Fill & Submit: Enter the required data and click Submit to save the form.
 4️⃣ View Submissions: After submission, click "List" to see all submitted records.
 5️⃣ Filter Data: You can filter submissions based on Date Range and User entry_by.
+
+Note: 
+Using cookie, prevent users can not create multiple submissions within 24 hours.
+If you try to multiple submission within 24 hours delete the cookie (cookie name = submitted)

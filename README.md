@@ -36,6 +36,10 @@ CREATE DATABASE your_database_name;
 5️. Filter Data: You can filter submissions based on Date Range and entry_by .
 ```
 
+Note: 
+Using cookie, prevent users can not create multiple submissions within 24 hours.
+If you try to multiple submission within 24 hours delete the cookie (cookie_name = submitted)
+
 
 
 
